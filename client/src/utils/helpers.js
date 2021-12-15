@@ -5,7 +5,7 @@ export function pluralize(name, count) {
   return name + 's'
 }
 
-//whenever this is run, we establish a connection to the databse
+//whenever this is run, we establish a connection to the database
 export function idbPromise(storeName, method, object) {
   return new Promise((resolve, reject) => {
     //open connection to the database `shop-shop` with the version of 1
